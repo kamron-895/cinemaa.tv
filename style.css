@@ -17,8 +17,11 @@
     background-color: #2a1a1d;
     position: fixed;
     width: 100%;
+<<<<<<< HEAD
    
   
+=======
+>>>>>>> 0668b0d30ab0d8e0d11cf6e230d65637b38f245b
 }
 
 .cinem_png {
@@ -65,8 +68,13 @@
     display: grid;
     grid-template-columns: repeat(2, 175px);
     align-items: center;
+<<<<<<< HEAD
     justify-content: center;
     padding: 110px 0px 30px 10px;
+=======
+   justify-content: center;
+   padding: 110px 0px 30px 10px;
+>>>>>>> 0668b0d30ab0d8e0d11cf6e230d65637b38f245b
 
 }
 
