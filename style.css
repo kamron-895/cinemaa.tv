@@ -114,11 +114,14 @@ main {
     font-weight: 700;
 }
 .footer{
-    
-    height: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height:auto;
     background-color: #2a1a1d;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+   padding:0px 0px 0px 30px;
+    row-gap: 13px;
 }
 .fotter_img{
     display: flex;
@@ -143,3 +146,31 @@ main {
     height: 30px;
     font-size: 23px;
 }
+.fotr1{
+    height:auto;
+    background-color: #2a1a1d;
+    align-items: center;
+    justify-content: space-around;
+}
+.reklama_bolimi{
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+.instagram{
+    text-decoration: none;
+    color: #dc8f3f;
+}
+.facebok{
+    text-decoration: none;
+    color: #1976d2;
+}
+.telegram{
+    text-decoration: none;
+    color: #039be5;
+}
+.gamil{
+    text-decoration: none;
+    color: #ff4131;
+}
+
