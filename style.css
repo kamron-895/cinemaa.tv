@@ -17,11 +17,6 @@
     background-color: #2a1a1d;
     position: fixed;
     width: 100%;
-<<<<<<< HEAD
-   
-  
-=======
->>>>>>> 0668b0d30ab0d8e0d11cf6e230d65637b38f245b
 }
 
 .cinem_png {
@@ -68,13 +63,8 @@
     display: grid;
     grid-template-columns: repeat(2, 175px);
     align-items: center;
-<<<<<<< HEAD
     justify-content: center;
     padding: 110px 0px 30px 10px;
-=======
-   justify-content: center;
-   padding: 110px 0px 30px 10px;
->>>>>>> 0668b0d30ab0d8e0d11cf6e230d65637b38f245b
 
 }
 
@@ -113,4 +103,13 @@ main {
 
 .grid_padding {
     padding: 10px;
+}
+.main_button{
+    width: 140px;
+    height: 30px;
+    background-color: #fdb94a;
+    color: #2a1a1d;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: 700;
 }

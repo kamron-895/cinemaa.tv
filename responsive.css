@@ -25,15 +25,9 @@
         grid-template-columns: repeat(2, 175px);
 
         align-items: center;
-<<<<<<< HEAD
         justify-content: center;
         padding: 10px 0px 30px 10px;
 
-=======
-       justify-content: center;
-       padding: 80px 0px 30px 10px;
-    
->>>>>>> 0668b0d30ab0d8e0d11cf6e230d65637b38f245b
     }
 
     .vidio1 {
