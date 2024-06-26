@@ -14,6 +14,8 @@
     align-items: center;
     justify-content: space-around;
     background-color: #2a1a1d;
+    position: fixed;
+    width: 100%;
 }
 
 .cinem_png {
