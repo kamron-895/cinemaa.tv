@@ -1,40 +1,47 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.container{
+.container {
     max-width: 1540px;
     margin: auto;
 }
-.header{
+
+.header {
     display: flex;
     align-items: center;
     justify-content: space-around;
     background-color: #2a1a1d;
 }
-.cinem_png{
+
+.cinem_png {
     display: flex;
     align-items: center;
 
 }
-.img_png_color{
+
+.img_png_color {
     color: #fdb94a;
 }
-.sinema_img{
+
+.sinema_img {
     width: 100px;
     height: 100px;
 }
-.a_teg{
+
+.a_teg {
     text-decoration: none;
     color: #fdb94a;
 }
-.a_umumiy{
+
+.a_umumiy {
     display: flex;
     gap: 30px;
 }
-.input_serch{
+
+.input_serch {
     padding-left: 20px;
     width: 300px;
     height: 30px;
@@ -42,10 +49,48 @@
     border-radius: 8px;
     border: none;
 }
-.burger_img{
+
+.burger_img {
     width: 35px;
     height: 35px;
+    display: none;
 }
 
+.img_card {
+    display: grid;
+    grid-template-columns: repeat(2, 175px);
+    
+    align-items: center;
+   justify-content: center;
+   padding: 10px 0px 30px 10px;
 
-
+}
+.vidio1 {
+    height: 175px;
+}
+.vidio2 {
+    height: 150 px;
+}
+main{
+    background-color: #2a1a1dd8;
+}
+.img5{
+    width: 130px;
+    height: 275px;
+}
+.img1{
+    width: 160px;
+    height: 260px;
+}
+.grid_card_img{
+    background-color: rgba(255, 255, 255, 0.42);
+    width: 160px;
+    margin-bottom: 20px;
+    
+}
+.grid_text_color{
+    color: #fdb94a;
+}
+.grid_padding{
+    padding: 10px;
+}
