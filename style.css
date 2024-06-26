@@ -113,3 +113,28 @@ main {
     font-size: 17px;
     font-weight: 700;
 }
+.footer{
+    
+    height: 100px;
+    background-color: #2a1a1d;
+    align-items: center;
+    justify-content: space-around;
+}
+.fotter_img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.uch_btn{
+    display: flex;
+    justify-content: space-around;
+}
+.reklama_btn{
+    width: 70px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: #fdb94a;
+    font-weight: 700;
+    border: none;
+}
